@@ -1,0 +1,148 @@
+body {
+	background-image: url("images/design1_image1.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center 10vh;
+}
+header{
+	width: 100%;
+	height: 20%;
+	left: 0;
+	top: 0;
+	position: fixed;
+	margin:0;
+}
+h1	{
+	font-size:310%;
+	background-color: #154360;
+	color:white;
+	text-align: center;
+	text-shadow: 2px 2px black;
+	margin:0;
+	border: 3px solid black;
+}
+#pelota{
+	position: absolute;
+	left:10vw;
+	top:-9vh;
+	width:50px;
+}
+#pelota2{
+	position: absolute;
+	right:10vw;
+	top:-9vh;
+	width:50px;
+}
+#mini{
+	position: absolute;
+	left:0;
+	top:-9vh;
+	width:50px;
+}
+#mini2{
+	position: absolute;
+	right:0;
+	top:-9vh;
+	width:50px;
+}
+h2{display:none;}
+img{
+	float:right;
+	margin: 10vh;
+}
+nav {
+	display:flex;
+	background-color: #ACFA58;
+	border: 3px solid black;
+	border-top: 0;
+	justify-content:space-between;
+}
+nav>div{
+	display: flex;
+}
+div>a {
+	font-size: 140%;
+	text-decoration: none;
+	padding: 0 25px;
+	color: black;
+}
+#verde {
+	background-color: #154360;
+	order: -1;
+	border-right:3px solid black;
+}
+#verde>a{
+	color: white;
+	font-size:175%;
+	text-shadow: 2px 2px black;
+}
+div>a:hover{
+	background-color: #58D68D;
+	font-size: 175%;
+}
+h3{
+	font-size: 150%;
+	background-image: url("images/design3_image1.jpg");
+	background-size: cover;
+	display:inline-block;
+	margin: 0
+}
+main {
+	float:left;
+	padding: 10% 5%; 
+	width: 53vw
+}
+p, main>ul, main>ol, table, fieldset{
+	margin: 30px;
+	margin-top: 0;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 109%;
+	background-color: #58D68D;
+	box-shadow: 5px 5px black;
+}
+ul{
+	list-style-type:square;
+}
+.subrayado{
+	text-decoration: underline;
+	margin: 15px
+}
+th,td{
+	padding: 0 20px;
+	text-align: left;
+}
+.fechas{
+	text-align: center;
+}
+legend{
+	background-color: #58D68D;
+	border: 1px solid gray;
+	font-size: 120%;
+}
+.formulario{
+	border:none;
+	box-shadow: none;
+	font-size: 100%;
+	margin:0px;
+}
+input[type=text], input[type=email], input[type=tel] {
+	border: none;
+ 	border-bottom: 1px dashed gray;
+ 	background-color: #58D68D; 
+}
+input[type=date] {
+	background-color: #58D68D;
+	border:none;
+	border-bottom: 1px dashed gray;
+	font-size: 110%;
+	text-align: right;
+}
+.boxlarge{
+	width: 70%;
+}
+input[type=Submit]{
+	float: right;
+	margin: 20px 0 5px 0;
+}
